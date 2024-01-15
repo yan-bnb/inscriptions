@@ -3,13 +3,13 @@ A comprehensive inscription indexing market based on the BNB network. It encompa
 ## 项目链接
 www.xxx.com
 ## 奖励
-...将推出其平台生态代币(简称“平台代币”)，旨在促进平台生态系统的建设和发展，特别是通过奖励为平台做出贡献的用户。在接下来的运营中，用户在平台上进行部署、铸造等活动，将获得平台代币作为奖励。这些奖励可以通过平台直接申领，激励用户积极参与生态系统的发展。
+BNBSC将推出其平台生态代币(简称“平台代币”)，旨在促进平台生态系统的建设和发展，特别是通过奖励为平台做出贡献的用户。在接下来的运营中，用户在平台上进行部署、铸造等活动，将获得平台代币作为奖励。这些奖励可以通过平台直接申领，激励用户积极参与生态系统的发展。
 ## 功能说明
 
 ### 1.初始铭文 Deploy
-总量：xxx
+总量：21000000
 `
-{"p":"bsc-20","op":"deploy","tick":"xxx","amt":"10"}
+{"p":"bsc-20","op":"deploy","tick":"bnbsc","amt":"10"}
 `
 ### 2.铸造 Mint
 每个账号最多铸造10个铭文，（铸造费用：一个铭文 xxx BNB）
@@ -17,7 +17,7 @@ www.xxx.com
 //Mint
 data:application/json,
 {
-    "p":"opbrc",
+    "p":"bsc-20",
     "op":"mint",
     "tick":"tick name"
 }
@@ -55,6 +55,8 @@ bsc-20铭文
 ![Alt text](./img/holders.jpg)
 市场（待开发）
 ### 2.手机浏览器
-待开发
+![Alt text](./img/bsc-20-mobile.jpg)
+![Alt text](./img/inscriptions-mobile.jpg)
+![Alt text](./img/holders-mobile.jpg)
 ## 开发各种DAPP，区块链项目，联系方式:
 Telegram: https://t.me/OS_Blockchain
